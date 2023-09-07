@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: olivedrab;
+    box-sizing: border-box;
+
+}
+
+#nav {
+    background-color: blueviolet;
+    text-align: center;
+    height: 30px;
+}
+h1{
+    
+    margin-left: 550px;
+    margin-top: 15px;
+    background-color: rgb(15, 243, 8);
+    text-align: center;
+    box-sizing: border-box;
+    width: 250px;
+
+}

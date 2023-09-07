@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    background-color: black;
+    height: 100px;
+    display: flex;
+}
+
+#nav>article {
+    height: 80px;
+    width: 90px;
+    background-color: rgb(8, 8, 8);
+    width: 50%;
+    height: 100%;
+}
+
+#nav>article>.menu>ol{
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+#nav>article>.menu>ol>li>a{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: wheat;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#nav>article>.menu>ol>li>a:hover{
+    color: green;
+}
+article>background{
+    height: 80vh;
+    width: 100%;
+    background: radial-gradient(red,green,blue,pink,skyblue,black);
+}
+
